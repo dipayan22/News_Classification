@@ -3,8 +3,10 @@ import pickle
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import sent_tokenize,word_tokenize
-from sklearn.feature_extraction.text import CountVectorizer
+from nltk.tokenize import word_tokenize #sent_tokenize,
+# from sklearn.feature_extraction.text import CountVectorizer
+
+nltk.download('stopwords')
 
 # loading the model
 MNB=pickle.load(open('model.pkl','rb'))
