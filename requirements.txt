@@ -3,6 +3,6 @@ gunicorn
 flask
 requests
 scikit-learn
-nltk
+nltk==3.8
 
 
