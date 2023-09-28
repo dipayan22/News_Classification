@@ -2,7 +2,6 @@
 gunicorn
 flask
 requests
-pickle
 scikit-learn
 nltk
 
