@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Classiifcation</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- <style>
+        .container{
+            margin:20px;
+            padding:10px;
+            margin-right: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style> -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">NEWS CLASSIFICATION APP</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" class="h-100 d-flex align-items-center justify-content-center">
+
+        <form action="\predict" method="post">
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enter the NEWS</label>
+                <textarea name="input_text" class="form-control" id="exampleFormControlTextarea1" rows="10" cols="30"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <br>
+            <br>
+            <h3>{{ prediction_text }}</h3>
+
+            <br>
+            <br>
+            <p>©2020 Dipayan Majumder</p>
+
+    </div>
+</body>
+
+</html>
