@@ -7,6 +7,7 @@ from nltk.tokenize import word_tokenize #sent_tokenize,
 # from sklearn.feature_extraction.text import CountVectorizer
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 # loading the model
 MNB=pickle.load(open('model.pkl','rb'))
