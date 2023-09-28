@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize #sent_tokenize,
 
 nltk.download('stopwords')
 nltk.download('punkt')
-
+nltk.download('wordnet')
 # loading the model
 MNB=pickle.load(open('model.pkl','rb'))
 
