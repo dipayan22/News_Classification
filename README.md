@@ -1,6 +1,8 @@
 # News_Classification
 This is a simple web app that can classify news articles into different categories based on their content. The app uses a machine learning model trained on a large corpus of news articles from various sources and topics. The app can handle text input or URL input, and it will display the predicted category and the confidence score for the input.
 
+Check out the project using this link : https://news-classification-ufmd.onrender.com  
+
 # How to use the app
 To use the app, you can either type or paste some text from a news article into the text box, or enter a valid URL of a news article into the URL box. Then, click on the “Classify” button and wait for the app to process your input. The app will show you the predicted category and the confidence score for your input, as well as a brief explanation of the category.
 
